@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build outputs
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log
+logs/
+
+# Coverage & testing
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Hardware design tools (future)
+*.bak
+*.lck
+
+# Secrets & credentials
+*.pem
+*.key
+*.p12

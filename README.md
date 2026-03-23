@@ -57,53 +57,58 @@ cowgorithm/
 ## Document Index
 
 ### Market Study
-| # | Document | Description | Status |
-|---|----------|-------------|--------|
-| 01 | [Quebec Agriculture Overview](docs/market-study/01-quebec-agriculture-overview.md) | QC agriculture landscape, tech adoption, government programs | Not started |
-| 02 | [Cattle & Dairy Segment](docs/market-study/02-segment-cattle-dairy.md) | TAM/SOM, competitors, willingness to pay, QC-specific factors | Not started |
-| 03 | [Other Livestock Segment](docs/market-study/03-segment-other-livestock.md) | Sheep, goats, poultry, hogs — applicability & market size | Not started |
-| 04 | [Pet Segment](docs/market-study/04-segment-pets.md) | Dogs & cats — GPS trackers, differentiation, consumer market | Not started |
-| 05 | [Sport & Performance Segment](docs/market-study/05-segment-sport-performance.md) | Equestrian, athletes, working dogs — derivative potential | Not started |
-| 06 | [Competitive Landscape](docs/market-study/06-competitive-landscape.md) | Competitor matrix, white-space analysis, IP landscape | Not started |
-| 07 | [Market Study Summary](docs/market-study/07-market-study-summary.md) | Segment ranking, primary recommendation, derivative roadmap | Not started |
+
+| #   | Document                                                                           | Description                                                   | Status      |
+| --- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------- |
+| 01  | [Quebec Agriculture Overview](docs/market-study/01-quebec-agriculture-overview.md) | QC agriculture landscape, tech adoption, government programs  | Not started |
+| 02  | [Cattle & Dairy Segment](docs/market-study/02-segment-cattle-dairy.md)             | TAM/SOM, competitors, willingness to pay, QC-specific factors | Not started |
+| 03  | [Other Livestock Segment](docs/market-study/03-segment-other-livestock.md)         | Sheep, goats, poultry, hogs — applicability & market size     | Not started |
+| 04  | [Pet Segment](docs/market-study/04-segment-pets.md)                                | Dogs & cats — GPS trackers, differentiation, consumer market  | Not started |
+| 05  | [Sport & Performance Segment](docs/market-study/05-segment-sport-performance.md)   | Equestrian, athletes, working dogs — derivative potential     | Not started |
+| 06  | [Competitive Landscape](docs/market-study/06-competitive-landscape.md)             | Competitor matrix, white-space analysis, IP landscape         | Not started |
+| 07  | [Market Study Summary](docs/market-study/07-market-study-summary.md)               | Segment ranking, primary recommendation, derivative roadmap   | Not started |
 
 ### Business Planning
-| Document | Description | Status |
-|----------|-------------|--------|
-| [Business Model Canvas](docs/business-planning/business-model-canvas.md) | Key partners, activities, revenue streams per segment | Not started |
-| [Value Propositions](docs/business-planning/value-propositions.md) | Customer personas, jobs/pains/gains per segment | Not started |
-| [Financial Projections](docs/business-planning/financial-projections.md) | Unit economics, 3-year P&L, break-even, runway | Not started |
-| [Regulatory & Compliance](docs/business-planning/regulatory-compliance.md) | ISED, MAPAQ, PIPEDA, Law 25, municipal regulations | Not started |
-| [Go-to-Market Strategy](docs/business-planning/go-to-market-strategy.md) | Launch region, channels, pilots, pricing, expansion | Not started |
+
+| Document                                                                   | Description                                           | Status      |
+| -------------------------------------------------------------------------- | ----------------------------------------------------- | ----------- |
+| [Business Model Canvas](docs/business-planning/business-model-canvas.md)   | Key partners, activities, revenue streams per segment | Not started |
+| [Value Propositions](docs/business-planning/value-propositions.md)         | Customer personas, jobs/pains/gains per segment       | Not started |
+| [Financial Projections](docs/business-planning/financial-projections.md)   | Unit economics, 3-year P&L, break-even, runway        | Not started |
+| [Regulatory & Compliance](docs/business-planning/regulatory-compliance.md) | ISED, MAPAQ, PIPEDA, Law 25, municipal regulations    | Not started |
+| [Go-to-Market Strategy](docs/business-planning/go-to-market-strategy.md)   | Launch region, channels, pilots, pricing, expansion   | Not started |
 
 ### Technical
-| Document | Description | Status |
-|----------|-------------|--------|
+
+| Document                                                         | Description                                               | Status      |
+| ---------------------------------------------------------------- | --------------------------------------------------------- | ----------- |
 | [Technical Feasibility](docs/technical/technical-feasibility.md) | Hardware, connectivity, software, cold-weather challenges | Not started |
-| [Product Requirements](docs/technical/product-requirements.md) | MVP features, user stories, hardware/software specs | Not started |
+| [Product Requirements](docs/technical/product-requirements.md)   | MVP features, user stories, hardware/software specs       | Not started |
 
 ### Pitch & Grants
-| Document | Description | Status |
-|----------|-------------|--------|
+
+| Document                                               | Description                          | Status      |
+| ------------------------------------------------------ | ------------------------------------ | ----------- |
 | [Pitch Deck Outline](docs/pitch/pitch-deck-outline.md) | 12-slide structure, QC grant targets | Not started |
 
 ### Research
-| Document | Description |
-|----------|-------------|
-| [Sources & Bibliography](research/sources.md) | All data sources with verification status |
+
+| Document                                             | Description                                    |
+| ---------------------------------------------------- | ---------------------------------------------- |
+| [Sources & Bibliography](research/sources.md)        | All data sources with verification status      |
 | [Research Plan & Tracker](research/research-plan.md) | Master progress tracker for all research tasks |
 
 ---
 
 ## Phased Approach
 
-| Phase | Focus | Depends On | Target |
-|-------|-------|------------|--------|
-| **1. Repo Setup** | Folder structure, stubs, README | — | **Done** |
-| **2. Market Study** | Quebec-focused research across 4 segments | Phase 1 | Weeks 1–2 |
-| **3. Business Planning** | BMC, financials, regulatory, GTM | Phase 2 | Weeks 2–3 |
-| **4. Technical Feasibility** | Hardware/software pre-feasibility, PRD | Phase 2 | Weeks 2–3 |
-| **5. Pitch Deck** | Team alignment, grant readiness | Phases 2–4 | Week 3–4 |
+| Phase                        | Focus                                     | Depends On | Target    |
+| ---------------------------- | ----------------------------------------- | ---------- | --------- |
+| **1. Repo Setup**            | Folder structure, stubs, README           | —          | **Done**  |
+| **2. Market Study**          | Quebec-focused research across 4 segments | Phase 1    | Weeks 1–2 |
+| **3. Business Planning**     | BMC, financials, regulatory, GTM          | Phase 2    | Weeks 2–3 |
+| **4. Technical Feasibility** | Hardware/software pre-feasibility, PRD    | Phase 2    | Weeks 2–3 |
+| **5. Pitch Deck**            | Team alignment, grant readiness           | Phases 2–4 | Week 3–4  |
 
 ---
 
@@ -119,4 +124,3 @@ cowgorithm/
 ## License
 
 TBD
-
