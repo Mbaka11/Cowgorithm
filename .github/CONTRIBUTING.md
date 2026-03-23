@@ -16,12 +16,14 @@
 ## Document Standards
 
 ### Market Study Documents
+
 - Every factual claim must cite a source from [sources.md](../research/sources.md)
 - Use Quebec-specific data when available (not just Canadian averages)
 - TAM/SAM/SOM calculations must show their math and assumptions
 - Mark document status in the research plan when updating
 
 ### Commit Messages
+
 ```
 type(scope): short description
 
