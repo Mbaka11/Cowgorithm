@@ -20,32 +20,32 @@
 
 | #    | Task                                                | Document                          | Status      | Notes                          |
 | ---- | --------------------------------------------------- | --------------------------------- | ----------- | ------------------------------ |
-| 2A.1 | QC agriculture GDP, employment, farm count          | 01-quebec-agriculture-overview.md | Not started | Source: StatCan, MAPAQ         |
-| 2A.2 | Key stats: dairy, cattle, hog, poultry, sheep farms | 01                                | Not started | Source: StatCan Census of Ag   |
-| 2A.3 | Technology adoption trends in QC farming            | 01                                | Not started |                                |
-| 2A.4 | Rural cellular/internet coverage analysis           | 01                                | Not started | Source: CRTC, carrier maps     |
-| 2A.5 | Government ag-tech programs inventory               | 01                                | Not started | Innov'Action, MAPAQ, IRAP, BDC |
-| 2A.6 | Farmer pain points (labor, costs, sustainability)   | 01                                | Not started | UPA reports, news articles     |
+| 2A.1 | QC agriculture GDP, employment, farm count          | 01-quebec-agriculture-overview.md | **Done** | Census 2021: 29,380 farms, 42,265 operators |
+| 2A.2 | Key stats: dairy, cattle, hog, poultry, sheep farms | 01                                | **Done** | Full farm type breakdown with revenue shares |
+| 2A.3 | Technology adoption trends in QC farming            | 01                                | **Done** | 49.8% tech use, 902 robotic milking farms |
+| 2A.4 | Rural cellular/internet coverage analysis           | 01                                | **Done** | LTE-M coverage mapped for dairy belt |
+| 2A.5 | Government ag-tech programs inventory               | 01                                | **Done** | Fed + QC programs inventoried (IRAP, SCAP, Innov'Action, SR&ED) |
+| 2A.6 | Farmer pain points (labor, costs, sustainability)   | 01                                | **Done** | Aging workforce, succession crisis, off-farm work data |
 
 ### 2B. Cattle & Dairy Segment
 
 | #    | Task                                          | Document                   | Status      | Notes                |
 | ---- | --------------------------------------------- | -------------------------- | ----------- | -------------------- |
-| 2B.1 | QC dairy cow count & avg herd size            | 02-segment-cattle-dairy.md | Not started | Source: PLQ, StatCan |
-| 2B.2 | TAM / SAM / SOM calculation                   | 02                         | Not started |                      |
-| 2B.3 | Competitor deep dive (Halter, Nofence, Vence) | 02                         | Not started |                      |
-| 2B.4 | Willingness to pay research                   | 02                         | Not started |                      |
-| 2B.5 | Quebec-specific factors (quota, UPA, coops)   | 02                         | Not started |                      |
-| 2B.6 | Barriers to entry analysis                    | 02                         | Not started |                      |
+| 2B.1 | QC dairy cow count & avg herd size            | 02-segment-cattle-dairy.md | **Done** | ~500K dairy cows, ~3,400-4,400 farms |
+| 2B.2 | TAM / SAM / SOM calculation                   | 02                         | **Done** | TAM ~$252M/yr, SOM ~$4.7M/yr Y3 |
+| 2B.3 | Competitor deep dive (Halter, Nofence, Vence) | 02                         | **Done** | No competitors active in Canada |
+| 2B.4 | Willingness to pay research                   | 02                         | **Done** | $29/cow/month recommended |
+| 2B.5 | Quebec-specific factors (quota, UPA, coops)   | 02                         | **Done** | Supply management, coop channels, French-first |
+| 2B.6 | Barriers to entry analysis                    | 02                         | **Done** | Cold weather, farmer trust, ISED certification |
 
 ### 2C. Other Livestock Segment
 
 | #    | Task                                        | Document                      | Status      | Notes                |
 | ---- | ------------------------------------------- | ----------------------------- | ----------- | -------------------- |
-| 2C.1 | Sheep, goat, poultry, hog farm counts in QC | 03-segment-other-livestock.md | Not started | Source: StatCan      |
-| 2C.2 | Virtual fencing applicability per species   | 03                            | Not started |                      |
-| 2C.3 | Existing solutions research                 | 03                            | Not started | Nofence, Digitanimal |
-| 2C.4 | TAM / SOM estimates per sub-segment         | 03                            | Not started |                      |
+| 2C.1 | Sheep, goat, poultry, hog farm counts in QC | 03-segment-other-livestock.md | **Done** | ~617 sheep/goat, ~1,263 hog, ~911 poultry farms |
+| 2C.2 | Virtual fencing applicability per species   | 03                            | **Done** | Sheep/goat = high; hog/poultry = excluded |
+| 2C.3 | Existing solutions research                 | 03                            | **Done** | Nofence, Digitanimal, Gallagher |
+| 2C.4 | TAM / SOM estimates per sub-segment         | 03                            | **Done** | Sheep/goat TAM ~$69M; SOM ~$420K Y3 |
 
 ### 2D. Pet Segment
 

@@ -9,12 +9,15 @@
 
 | Source                                                                           | URL                                                                                  | Used In            | Status      |
 | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------ | ----------- |
-| Statistique Canada — Agriculture census                                          | https://www.statcan.gc.ca/en/subjects-start/agriculture_and_food                     | 01, 02, 03         | To research |
-| MAPAQ — Ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec | https://www.quebec.ca/agriculture-environnement-et-ressources-naturelles/agriculture | 01, 02, regulatory | To research |
-| UPA — Union des producteurs agricoles                                            | https://www.upa.qc.ca                                                                | 01, 02             | To research |
-| ISED Canada — Spectrum Management                                                | https://ised-isde.canada.ca/site/spectrum-management-telecommunications              | Regulatory         | To research |
-| Innovation Canada — Programs                                                     | https://innovation.ised-isde.canada.ca                                               | Financial, Pitch   | To research |
-| NRC-IRAP                                                                         | https://nrc.canada.ca/en/support-technology-innovation                               | Financial, Pitch   | To research |
+| Statistique Canada — Census of Agriculture 2021 (QC Profile)                     | https://www150.statcan.gc.ca/n1/pub/96-325-x/2021001/article/00005-eng.htm           | 01, 02, 03         | **Verified** |
+| Statistique Canada — Census of Agriculture 2021 (Regional Overview)              | https://www150.statcan.gc.ca/n1/daily-quotidien/220615/dq220615a-eng.htm             | 01                 | **Verified** |
+| Canadian Dairy Information Centre — Dairy Sector Profile                          | https://agriculture.canada.ca/en/sector/animal-industry/canadian-dairy-information-centre/dairy-sector-profile | 01, 02 | **Verified** |
+| MAPAQ — Ministère de l'Agriculture, des Pêcheries et de l'Alimentation du Québec | https://www.quebec.ca/agriculture-environnement-et-ressources-naturelles/agriculture | 01, 02, regulatory | To verify |
+| UPA — Union des producteurs agricoles                                            | https://www.upa.qc.ca                                                                | 01, 02             | To verify |
+| ISED Canada — Spectrum Management                                                | https://ised-isde.canada.ca/site/spectrum-management-telecommunications              | Regulatory         | To verify |
+| Innovation Canada — Programs                                                     | https://innovation.ised-isde.canada.ca                                               | Financial, Pitch   | To verify |
+| NRC-IRAP                                                                         | https://nrc.canada.ca/en/support-technology-innovation                               | Financial, Pitch   | To verify |
+| PLQ — Producteurs de lait du Québec                                              | —                                                                                    | 02                 | To verify |
 
 ## Industry Reports & Market Data
 
@@ -28,9 +31,9 @@
 
 | Company                     | URL                            | Used In            | Status      |
 | --------------------------- | ------------------------------ | ------------------ | ----------- |
-| Halter                      | https://halter.co.nz           | 02, 06, case study | To research |
-| Nofence                     | https://www.nofence.no         | 02, 03, 06         | To research |
-| Vence (Merck Animal Health) |                                | 02, 06             | To research |
+| Halter                      | https://halter.co.nz           | 02, 06, case study | **Verified** |
+| Nofence                     | https://nofence.com            | 02, 03, 06         | **Verified** |
+| Vence (Merck Animal Health) |                                | 02, 06             | To verify |
 | Fi Smart Collar             | https://tryfi.com              | 04, 06             | To research |
 | Tractive                    | https://tractive.com           | 04, 06             | To research |
 | Whistle (Mars Petcare)      | https://www.whistle.com        | 04, 06             | To research |
