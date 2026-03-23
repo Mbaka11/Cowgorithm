@@ -77,9 +77,9 @@ cowgorithm/
 
 | #   | Document                                                                           | Description                                                   | Status      |
 | --- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------- | ----------- |
-| 01  | [Quebec Agriculture Overview](docs/market-study/01-quebec-agriculture-overview.md) | QC agriculture landscape, tech adoption, government programs  | **Draft** |
-| 02  | [Cattle & Dairy Segment](docs/market-study/02-segment-cattle-dairy.md)             | TAM/SOM, competitors, willingness to pay, QC-specific factors | **Draft** |
-| 03  | [Other Livestock Segment](docs/market-study/03-segment-other-livestock.md)         | Sheep, goats, poultry, hogs — applicability & market size     | **Draft** |
+| 01  | [Quebec Agriculture Overview](docs/market-study/01-quebec-agriculture-overview.md) | QC agriculture landscape, tech adoption, government programs  | **Draft**   |
+| 02  | [Cattle & Dairy Segment](docs/market-study/02-segment-cattle-dairy.md)             | TAM/SOM, competitors, willingness to pay, QC-specific factors | **Draft**   |
+| 03  | [Other Livestock Segment](docs/market-study/03-segment-other-livestock.md)         | Sheep, goats, poultry, hogs — applicability & market size     | **Draft**   |
 | 04  | [Pet Segment](docs/market-study/04-segment-pets.md)                                | Dogs & cats — GPS trackers, differentiation, consumer market  | Not started |
 | 05  | [Sport & Performance Segment](docs/market-study/05-segment-sport-performance.md)   | Human athletes (soccer, hockey), equestrian, working dogs     | Not started |
 | 06  | [Competitive Landscape](docs/market-study/06-competitive-landscape.md)             | Competitor matrix, white-space analysis, IP landscape         | Not started |
@@ -130,13 +130,13 @@ cowgorithm/
 
 ## Phased Approach
 
-| Phase                        | Focus                                     | Depends On | Target    |
-| ---------------------------- | ----------------------------------------- | ---------- | --------- |
-| **1. Repo Setup**            | Folder structure, stubs, README           | —          | **Done**  |
+| Phase                        | Focus                                     | Depends On | Target                             |
+| ---------------------------- | ----------------------------------------- | ---------- | ---------------------------------- |
+| **1. Repo Setup**            | Folder structure, stubs, README           | —          | **Done**                           |
 | **2. Market Study**          | Quebec-focused research across 4 segments | Phase 1    | **In progress** (3/7 docs drafted) |
-| **3. Business Planning**     | BMC, financials, regulatory, GTM          | Phase 2    | Weeks 2–3 |
-| **4. Technical Feasibility** | Hardware/software pre-feasibility, PRD    | Phase 2    | Weeks 2–3 |
-| **5. Pitch Deck**            | Team alignment, grant readiness           | Phases 2–4 | Week 3–4  |
+| **3. Business Planning**     | BMC, financials, regulatory, GTM          | Phase 2    | Weeks 2–3                          |
+| **4. Technical Feasibility** | Hardware/software pre-feasibility, PRD    | Phase 2    | Weeks 2–3                          |
+| **5. Pitch Deck**            | Team alignment, grant readiness           | Phases 2–4 | Week 3–4                           |
 
 ---
 
