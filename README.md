@@ -25,6 +25,21 @@ Small team (2–3 people) · Bootstrapping · Based in Quebec
 ```
 cowgorithm/
 ├── README.md                              ← You are here
+├── .gitignore
+├── .env.example                           ← Environment variable template
+├── .github/
+│   ├── copilot-instructions.md            ← Copilot project context
+│   ├── CONTRIBUTING.md                    ← Contribution guidelines
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── research-task.md
+│   │   └── segment-analysis.md
+│   ├── agents/                            ← Copilot custom agents
+│   │   ├── researcher.md                  ← Market research agent
+│   │   └── analyst.md                     ← Business analysis agent
+│   └── skills/                            ← Copilot custom skills
+│       ├── quebec-agriculture-data.md     ← QC agriculture data skill
+│       ├── competitor-analysis.md         ← Competitor research skill
+│       └── tam-calculation.md             ← TAM/SAM/SOM methodology
 ├── docs/
 │   ├── market-study/                      ← Quebec market research
 │   │   ├── 01-quebec-agriculture-overview
@@ -47,7 +62,9 @@ cowgorithm/
 │       └── pitch-deck-outline
 ├── research/                              ← Bibliography & progress tracking
 │   ├── sources.md
-│   └── research-plan.md
+│   ├── research-plan.md
+│   └── case-studies/
+│       └── halter.md                      ← Halter (NZ) deep-dive
 ├── src/                                   ← (future) product code
 └── hardware/                              ← (future) schematics & BOM
 ```
@@ -64,7 +81,7 @@ cowgorithm/
 | 02  | [Cattle & Dairy Segment](docs/market-study/02-segment-cattle-dairy.md)             | TAM/SOM, competitors, willingness to pay, QC-specific factors | Not started |
 | 03  | [Other Livestock Segment](docs/market-study/03-segment-other-livestock.md)         | Sheep, goats, poultry, hogs — applicability & market size     | Not started |
 | 04  | [Pet Segment](docs/market-study/04-segment-pets.md)                                | Dogs & cats — GPS trackers, differentiation, consumer market  | Not started |
-| 05  | [Sport & Performance Segment](docs/market-study/05-segment-sport-performance.md)   | Equestrian, athletes, working dogs — derivative potential     | Not started |
+| 05  | [Sport & Performance Segment](docs/market-study/05-segment-sport-performance.md)   | Human athletes (soccer, hockey), equestrian, working dogs     | Not started |
 | 06  | [Competitive Landscape](docs/market-study/06-competitive-landscape.md)             | Competitor matrix, white-space analysis, IP landscape         | Not started |
 | 07  | [Market Study Summary](docs/market-study/07-market-study-summary.md)               | Segment ranking, primary recommendation, derivative roadmap   | Not started |
 
@@ -91,12 +108,23 @@ cowgorithm/
 | ------------------------------------------------------ | ------------------------------------ | ----------- |
 | [Pitch Deck Outline](docs/pitch/pitch-deck-outline.md) | 12-slide structure, QC grant targets | Not started |
 
-### Research
+### Research & Case Studies
 
-| Document                                             | Description                                    |
-| ---------------------------------------------------- | ---------------------------------------------- |
-| [Sources & Bibliography](research/sources.md)        | All data sources with verification status      |
-| [Research Plan & Tracker](research/research-plan.md) | Master progress tracker for all research tasks |
+| Document                                             | Description                                              |
+| ---------------------------------------------------- | -------------------------------------------------------- |
+| [Sources & Bibliography](research/sources.md)        | All data sources with verification status                |
+| [Research Plan & Tracker](research/research-plan.md) | Master progress tracker for all research tasks           |
+| [Halter Case Study](research/case-studies/halter.md) | Deep-dive on Halter (NZ) — business model, tech, lessons |
+
+### Copilot Agents & Skills
+
+| File                                                             | Description                                                           |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [Researcher Agent](.github/agents/researcher.md)                 | Market research agent — data gathering, sourcing, document population |
+| [Analyst Agent](.github/agents/analyst.md)                       | Business analysis agent — financials, BMC, GTM, pricing strategy      |
+| [QC Agriculture Data](.github/skills/quebec-agriculture-data.md) | Skill for finding Quebec-specific farming statistics                  |
+| [Competitor Analysis](.github/skills/competitor-analysis.md)     | Framework for structured competitor comparison                        |
+| [TAM Calculation](.github/skills/tam-calculation.md)             | TAM/SAM/SOM methodology with Quebec multipliers                       |
 
 ---
 

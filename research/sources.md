@@ -26,14 +26,17 @@
 
 ## Competitor Sources
 
-| Company                     | URL                        | Used In    | Status      |
-| --------------------------- | -------------------------- | ---------- | ----------- |
-| Halter                      | https://www.hfrater.co.nz  | 02, 06     | To research |
-| Nofence                     | https://www.nofence.no     | 02, 03, 06 | To research |
-| Vence (Merck Animal Health) | https://www.vfrenceinc.com | 02, 06     | To research |
-| Fi Smart Collar             | https://tryfi.com          | 04, 06     | To research |
-| Tractive                    | https://tractive.com       | 04, 06     | To research |
-| Whistle (Mars Petcare)      | https://www.whistle.com    | 04, 06     | To research |
+| Company                     | URL                            | Used In            | Status      |
+| --------------------------- | ------------------------------ | ------------------ | ----------- |
+| Halter                      | https://halter.co.nz           | 02, 06, case study | To research |
+| Nofence                     | https://www.nofence.no         | 02, 03, 06         | To research |
+| Vence (Merck Animal Health) |                                | 02, 06             | To research |
+| Fi Smart Collar             | https://tryfi.com              | 04, 06             | To research |
+| Tractive                    | https://tractive.com           | 04, 06             | To research |
+| Whistle (Mars Petcare)      | https://www.whistle.com        | 04, 06             | To research |
+| Catapult / STATSports       | https://www.catapultsports.com | 05, 06             | To research |
+| Kinexon                     | https://kinexon.com            | 05, 06             | To research |
+| Polar Team Pro              | https://www.polar.com          | 05, 06             | To research |
 
 ## Technical References
 
@@ -42,6 +45,14 @@
 | Bell LTE-M Coverage            |                            | Technical feasibility | To research |
 | Telus IoT Coverage             |                            | Technical feasibility | To research |
 | Nordic Semiconductor (nRF9160) | https://www.nordicsemi.com | Technical feasibility | To research |
+
+## Sport & Performance Sources
+
+| Source                                            | URL | Used In    | Status      |
+| ------------------------------------------------- | --- | ---------- | ----------- |
+| Soccer Quebec (registration stats)                |     | 05 (sport) | To research |
+| Hockey Quebec (registration stats)                |     | 05 (sport) | To research |
+| Ministère de l'Éducation — Sport participation QC |     | 05 (sport) | To research |
 
 ## Academic / Research Papers
 

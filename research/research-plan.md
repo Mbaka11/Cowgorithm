@@ -58,14 +58,18 @@
 | 2D.5 | Regulatory (ISED, pet safety)        | 04                 | Not started |                       |
 | 2D.6 | TAM / SOM calculation                | 04                 | Not started |                       |
 
-### 2E. Sport & Performance Segment
+### 2E. Sport & Human Performance Segment
 
-| #    | Task                                  | Document                        | Status      | Notes                   |
-| ---- | ------------------------------------- | ------------------------------- | ----------- | ----------------------- |
-| 2E.1 | Equestrian market in QC               | 05-segment-sport-performance.md | Not started |                         |
-| 2E.2 | Athlete wearable competitive analysis | 05                              | Not started | Garmin, Whoop, Catapult |
-| 2E.3 | Sled/working dog niche research       | 05                              | Not started |                         |
-| 2E.4 | TAM / SOM estimates                   | 05                              | Not started |                         |
+| #    | Task                                              | Document                        | Status      | Notes                            |
+| ---- | ------------------------------------------------- | ------------------------------- | ----------- | -------------------------------- |
+| 2E.1 | Soccer: QC participation, clubs, player counts    | 05-segment-sport-performance.md | Not started | Source: Soccer Quebec            |
+| 2E.2 | Hockey: QC participation, teams, player counts    | 05                              | Not started | Source: Hockey Quebec            |
+| 2E.3 | Team sport wearable competitive analysis          | 05                              | Not started | Catapult, Kinexon, Polar, Garmin |
+| 2E.4 | Technology crossover analysis (ag collar → sport) | 05                              | Not started | GPS, IMU shared; HR, UWB new     |
+| 2E.5 | Indoor tracking feasibility (hockey arenas)       | 05                              | Not started | UWB vs BLE for ice rinks         |
+| 2E.6 | Equestrian market in QC                           | 05                              | Not started |                                  |
+| 2E.7 | Working dog niche research                        | 05                              | Not started |                                  |
+| 2E.8 | TAM / SOM estimates (per sub-segment)             | 05                              | Not started |                                  |
 
 ### 2F. Competitive Landscape
 
@@ -118,6 +122,17 @@
 | --- | ---------------------------------- | --------------------- | ----------- | --------------------- |
 | 5.1 | Draft pitch deck outline content   | pitch-deck-outline.md | Not started | Depends on Phases 2–4 |
 | 5.2 | Grant program eligibility research | pitch-deck-outline.md | Not started |                       |
+
+---
+
+## Case Studies
+
+| #    | Task                              | Document                | Status      | Notes                              |
+| ---- | --------------------------------- | ----------------------- | ----------- | ---------------------------------- |
+| CS.1 | Halter case study (initial draft) | case-studies/halter.md  | **Done**    | Business model, tech, NZ vs QC     |
+| CS.2 | Verify Halter funding data        | case-studies/halter.md  | Not started | Source: Crunchbase, NZ media       |
+| CS.3 | Halter patent research            | case-studies/halter.md  | Not started | Google Patents, WIPO               |
+| CS.4 | Nofence case study (if needed)    | case-studies/nofence.md | Not started | Sheep/goat virtual fencing pioneer |
 
 ---
 
