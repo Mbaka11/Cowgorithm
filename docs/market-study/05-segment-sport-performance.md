@@ -20,6 +20,7 @@ Quebec has one of the largest organized soccer communities in Canada:
 - Parents invest heavily in competitive youth soccer (equipment, travel, private coaching)
 
 **Use cases:**
+
 - Real-time GPS position tracking on the field — produce heat maps, distance covered, sprint counts
 - Heart rate monitoring: exertion zones, recovery metrics, fatigue estimation
 - Coach analytics: tactical formation analysis, player load management, injury prevention
@@ -37,6 +38,7 @@ Quebec is a hockey heartland with a massive cultural and participant base:
 - Enormous emotional investment: hockey parents in Quebec are among the most engaged sport parents in Canada
 
 **Use cases:**
+
 - Player tracking during practice/games: skating speed, distance, shift analysis
 - Heart rate + exertion monitoring, impact detection (concussion protocol adjacency)
 - Line matching: compare player load across forward lines and defensive pairings
@@ -48,12 +50,12 @@ Quebec is a hockey heartland with a massive cultural and participant base:
 
 #### Other Team Sports
 
-| Sport | QC Registration Estimate | GPS Suitable? | Notes |
-|-------|:------------------------:|:------------:|-------|
-| Canadian football (CFL/university) | ~15,000–20,000 | Yes (outdoor) | Alouettes (CFL), university RSEQ programs |
-| Rugby | ~5,000–8,000 | Yes (outdoor) | Growing but small; Rugby Quebec |
-| Lacrosse | ~3,000–5,000 | Mixed (box lacrosse is indoor) | Niche; box lacrosse dominant in QC |
-| Basketball | ~15,000–20,000 | No (indoor) | Requires UWB — same as hockey |
+| Sport                              | QC Registration Estimate |         GPS Suitable?          | Notes                                     |
+| ---------------------------------- | :----------------------: | :----------------------------: | ----------------------------------------- |
+| Canadian football (CFL/university) |      ~15,000–20,000      |         Yes (outdoor)          | Alouettes (CFL), university RSEQ programs |
+| Rugby                              |       ~5,000–8,000       |         Yes (outdoor)          | Growing but small; Rugby Quebec           |
+| Lacrosse                           |       ~3,000–5,000       | Mixed (box lacrosse is indoor) | Niche; box lacrosse dominant in QC        |
+| Basketball                         |      ~15,000–20,000      |          No (indoor)           | Requires UWB — same as hockey             |
 
 Same core GPS + biometric wearable platform serves all outdoor team sports. Indoor sports (hockey, basketball, box lacrosse) require UWB investment.
 
@@ -131,14 +133,14 @@ Same core GPS + biometric wearable platform serves all outdoor team sports. Indo
 
 ### What Needs New Development
 
-| New Component | Effort | Cost Estimate |
-|--------------|:------:|:------------:|
-| **Optical heart rate sensor** integration (PPG) | Medium | $30–50K R&D |
-| **Indoor positioning (UWB)** for hockey/basketball | High | $100–200K R&D |
-| **Sport-specific analytics models** (heat maps, shift tracking, sprint detection) | Medium | $50–100K R&D |
-| **Smaller, lighter form factor** (chest strap/vest vs. collar) | High | $80–150K hardware R&D |
-| **Health Canada** wearable device compliance (if making health claims) | Medium | $20–40K regulatory |
-| **Total estimated new development** | | **$280–540K** |
+| New Component                                                                     | Effort |     Cost Estimate     |
+| --------------------------------------------------------------------------------- | :----: | :-------------------: |
+| **Optical heart rate sensor** integration (PPG)                                   | Medium |      $30–50K R&D      |
+| **Indoor positioning (UWB)** for hockey/basketball                                |  High  |     $100–200K R&D     |
+| **Sport-specific analytics models** (heat maps, shift tracking, sprint detection) | Medium |     $50–100K R&D      |
+| **Smaller, lighter form factor** (chest strap/vest vs. collar)                    |  High  | $80–150K hardware R&D |
+| **Health Canada** wearable device compliance (if making health claims)            | Medium |  $20–40K regulatory   |
+| **Total estimated new development**                                               |        |     **$280–540K**     |
 
 > The significant new R&D investment (especially UWB for hockey) is a key reason this segment is recommended as a derivative play, not a lead product.
 
@@ -176,15 +178,15 @@ The key market gaps for Cowgorithm in Quebec:
 
 ### Quebec Context
 
-| Sport/Tier | Estimated Participants (QC) | Source |
-|------------|:--------------------------:|--------|
-| Soccer (registered players) | ~200,000+ | Soccer Quebec estimates |
-| Hockey (registered players) | ~100,000+ | Hockey Quebec estimates |
-| Canadian football (amateur + university) | ~15,000–20,000 | Football Quebec |
-| Rugby | ~5,000–8,000 | Rugby Quebec |
-| Other team sports | ~30,000–50,000 | Various federations |
-| University / CEGEP athletic programs | ~40+ institutions, ~5,000+ athletes | RSEQ |
-| Semi-pro / pro teams | ~30–50 teams (PLSQ, LHJMQ, CFL, MLS, etc.) | Various leagues |
+| Sport/Tier                               |        Estimated Participants (QC)         | Source                  |
+| ---------------------------------------- | :----------------------------------------: | ----------------------- |
+| Soccer (registered players)              |                 ~200,000+                  | Soccer Quebec estimates |
+| Hockey (registered players)              |                 ~100,000+                  | Hockey Quebec estimates |
+| Canadian football (amateur + university) |               ~15,000–20,000               | Football Quebec         |
+| Rugby                                    |                ~5,000–8,000                | Rugby Quebec            |
+| Other team sports                        |               ~30,000–50,000               | Various federations     |
+| University / CEGEP athletic programs     |    ~40+ institutions, ~5,000+ athletes     | RSEQ                    |
+| Semi-pro / pro teams                     | ~30–50 teams (PLSQ, LHJMQ, CFL, MLS, etc.) | Various leagues         |
 
 ### TAM (Quebec)
 
@@ -223,12 +225,12 @@ Target athletes: ~60,000 (competitive soccer + hockey players, ~20% of total reg
 
 ### SAM
 
-| Filter | Multiplier |
-|--------|-----------|
-| Soccer + hockey only (primary targets) | ×0.85 |
-| Teams/athletes willing to invest in new tech | ×0.30 |
-| Reachable through youth federations + direct sales | ×0.70 |
-| **SAM multiplier** | **×0.18** |
+| Filter                                             | Multiplier |
+| -------------------------------------------------- | ---------- |
+| Soccer + hockey only (primary targets)             | ×0.85      |
+| Teams/athletes willing to invest in new tech       | ×0.30      |
+| Reachable through youth federations + direct sales | ×0.70      |
+| **SAM multiplier**                                 | **×0.18**  |
 
 ```
 SAM = $1.6M × 0.18 = ~$288K (Year 1)
@@ -239,11 +241,11 @@ SAM (recurring) = ~$79K/year
 
 Team sport sales are relationship-driven — require demos, coaching endorsements, and federation partnerships:
 
-| Year | Penetration of SAM | Teams/Athletes | Revenue |
-|------|:-----------------:|:--------------:|--------:|
-| Year 1 | 5% | ~3 teams, ~50 athletes | ~$14K |
-| Year 2 | 15% | ~10 teams, ~150 athletes | ~$43K |
-| Year 3 | 30% | ~20 teams, ~300 athletes | ~$86K |
+| Year   | Penetration of SAM |      Teams/Athletes      | Revenue |
+| ------ | :----------------: | :----------------------: | ------: |
+| Year 1 |         5%         |  ~3 teams, ~50 athletes  |   ~$14K |
+| Year 2 |        15%         | ~10 teams, ~150 athletes |   ~$43K |
+| Year 3 |        30%         | ~20 teams, ~300 athletes |   ~$86K |
 
 > **SOM (Year 3): ~$86K/year** — very small compared to cattle ($4.7M) and even pets ($527K). This confirms sport is a long-horizon derivative play, not a near-term revenue driver.
 
@@ -269,27 +271,27 @@ Team sport sales are relationship-driven — require demos, coaching endorsement
 
 ### Sub-Segment Scoring
 
-| Sub-Segment | TAM (1–5) | Feasibility (1–5) | Differentiation (1–5) | Team Fit (1–5) | Weighted Score |
-|------------|:---------:|:-----------------:|:--------------------:|:--------------:|:--------------:|
-| Soccer team analytics | 3 | 4 | 3 | 3 | **3.25** |
-| Hockey player tracking | 2 | 2 (UWB needed) | 4 (unique) | 3 | **2.75** |
-| Equestrian | 2 | 4 (collar transfers) | 3 | 3 | **3.00** |
-| Individual endurance | 4 | 3 | 1 (Garmin dominates) | 2 | **2.50** |
-| Working dogs | 1 | 4 (pet collar) | 3 | 2 | **2.50** |
+| Sub-Segment            | TAM (1–5) |  Feasibility (1–5)   | Differentiation (1–5) | Team Fit (1–5) | Weighted Score |
+| ---------------------- | :-------: | :------------------: | :-------------------: | :------------: | :------------: |
+| Soccer team analytics  |     3     |          4           |           3           |       3        |    **3.25**    |
+| Hockey player tracking |     2     |    2 (UWB needed)    |      4 (unique)       |       3        |    **2.75**    |
+| Equestrian             |     2     | 4 (collar transfers) |           3           |       3        |    **3.00**    |
+| Individual endurance   |     4     |          3           | 1 (Garmin dominates)  |       2        |    **2.50**    |
+| Working dogs           |     1     |    4 (pet collar)    |           3           |       2        |    **2.50**    |
 
-*Weights: TAM 30%, Feasibility 25%, Differentiation 25%, Team Fit 20%*
+_Weights: TAM 30%, Feasibility 25%, Differentiation 25%, Team Fit 20%_
 
 ### Overall Segment Score
 
-| Criteria | Score (1–5) | Weight | Weighted Score |
-|----------|:-----------:|:------:|:--------------:|
-| Market size (TAM) | 2 | 20% | 0.40 |
-| Willingness to pay | 2 | 20% | 0.40 |
-| Competitive gap | 3 | 20% | 0.60 |
-| Technical feasibility | 3 | 15% | 0.45 |
-| Team/location fit | 3 | 15% | 0.45 |
-| Regulatory risk | 3 | 10% | 0.30 |
-| **Total** | | **100%** | **2.60 / 5.00** |
+| Criteria              | Score (1–5) |  Weight  | Weighted Score  |
+| --------------------- | :---------: | :------: | :-------------: |
+| Market size (TAM)     |      2      |   20%    |      0.40       |
+| Willingness to pay    |      2      |   20%    |      0.40       |
+| Competitive gap       |      3      |   20%    |      0.60       |
+| Technical feasibility |      3      |   15%    |      0.45       |
+| Team/location fit     |      3      |   15%    |      0.45       |
+| Regulatory risk       |      3      |   10%    |      0.30       |
+| **Total**             |             | **100%** | **2.60 / 5.00** |
 
 ### Verdict
 
@@ -305,16 +307,16 @@ Team sport sales are relationship-driven — require demos, coaching endorsement
 
 ## 7. Data Sources
 
-| # | Source | URL | Data Used | Status |
-|---|--------|-----|-----------|--------|
-| 1 | Soccer Quebec | https://www.soccerquebec.org | Registration estimates (~200K+ players) | To verify (exact figures) |
-| 2 | Hockey Quebec | https://www.hockeyquebec.com | Registration estimates (~100K+ players) | To verify |
-| 3 | Catapult Sports | https://www.catapultsports.com | Competitor product features, pro-tier pricing | Verified |
-| 4 | STATSports (Playertek) | https://statsports.com | Consumer-tier soccer GPS vest | To verify |
-| 5 | Kinexon | https://kinexon.com | UWB indoor positioning for sport | Verified |
-| 6 | Polar Team Pro | https://www.polar.com/en/business | Team performance monitoring | Verified |
-| 7 | RSEQ (Réseau du sport étudiant du Québec) | https://rseq.ca | University/CEGEP athletic programs in QC | Verified |
-| 8 | Cheval Québec | https://www.cheval.quebec | Horse population estimates in QC | To verify |
+| #   | Source                                    | URL                               | Data Used                                     | Status                    |
+| --- | ----------------------------------------- | --------------------------------- | --------------------------------------------- | ------------------------- |
+| 1   | Soccer Quebec                             | https://www.soccerquebec.org      | Registration estimates (~200K+ players)       | To verify (exact figures) |
+| 2   | Hockey Quebec                             | https://www.hockeyquebec.com      | Registration estimates (~100K+ players)       | To verify                 |
+| 3   | Catapult Sports                           | https://www.catapultsports.com    | Competitor product features, pro-tier pricing | Verified                  |
+| 4   | STATSports (Playertek)                    | https://statsports.com            | Consumer-tier soccer GPS vest                 | To verify                 |
+| 5   | Kinexon                                   | https://kinexon.com               | UWB indoor positioning for sport              | Verified                  |
+| 6   | Polar Team Pro                            | https://www.polar.com/en/business | Team performance monitoring                   | Verified                  |
+| 7   | RSEQ (Réseau du sport étudiant du Québec) | https://rseq.ca                   | University/CEGEP athletic programs in QC      | Verified                  |
+| 8   | Cheval Québec                             | https://www.cheval.quebec         | Horse population estimates in QC              | To verify                 |
 
 ---
 

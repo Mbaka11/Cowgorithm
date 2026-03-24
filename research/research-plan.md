@@ -49,43 +49,43 @@
 
 ### 2D. Pet Segment
 
-| #    | Task                                 | Document           | Status   | Notes                                                      |
-| ---- | ------------------------------------ | ------------------ | -------- | ---------------------------------------------------------- |
+| #    | Task                                 | Document           | Status   | Notes                                                     |
+| ---- | ------------------------------------ | ------------------ | -------- | --------------------------------------------------------- |
 | 2D.1 | QC pet population data               | 04-segment-pets.md | **Done** | CAHI 2022: 7.9M dogs, 8.5M cats nationally; QC ~22% share |
-| 2D.2 | Existing GPS tracker comparison      | 04                 | **Done** | Fi, Whistle, Tractive, AirTag, Garmin compared             |
-| 2D.3 | Differentiation opportunity analysis | 04                 | **Done** | Active virtual fencing for dogs = key differentiator       |
-| 2D.4 | Consumer willingness to pay          | 04                 | **Done** | $270–350 Year 1; invisible fence replacement angle         |
-| 2D.5 | Regulatory (ISED, pet safety)        | 04                 | **Done** | Animal welfare risk flagged (vibration collar perception)  |
+| 2D.2 | Existing GPS tracker comparison      | 04                 | **Done** | Fi, Whistle, Tractive, AirTag, Garmin compared            |
+| 2D.3 | Differentiation opportunity analysis | 04                 | **Done** | Active virtual fencing for dogs = key differentiator      |
+| 2D.4 | Consumer willingness to pay          | 04                 | **Done** | $270–350 Year 1; invisible fence replacement angle        |
+| 2D.5 | Regulatory (ISED, pet safety)        | 04                 | **Done** | Animal welfare risk flagged (vibration collar perception) |
 | 2D.6 | TAM / SOM calculation                | 04                 | **Done** | TAM ~$43M; SOM ~$527K Y3; score 2.85/5.00                 |
 
 ### 2E. Sport & Human Performance Segment
 
-| #    | Task                                              | Document                        | Status   | Notes                                                     |
-| ---- | ------------------------------------------------- | ------------------------------- | -------- | --------------------------------------------------------- |
-| 2E.1 | Soccer: QC participation, clubs, player counts    | 05-segment-sport-performance.md | **Done** | ~200K+ registered players, 800+ clubs                     |
-| 2E.2 | Hockey: QC participation, teams, player counts    | 05                              | **Done** | ~100K+ registered players, LHJMQ 18 teams                |
+| #    | Task                                              | Document                        | Status   | Notes                                                          |
+| ---- | ------------------------------------------------- | ------------------------------- | -------- | -------------------------------------------------------------- |
+| 2E.1 | Soccer: QC participation, clubs, player counts    | 05-segment-sport-performance.md | **Done** | ~200K+ registered players, 800+ clubs                          |
+| 2E.2 | Hockey: QC participation, teams, player counts    | 05                              | **Done** | ~100K+ registered players, LHJMQ 18 teams                      |
 | 2E.3 | Team sport wearable competitive analysis          | 05                              | **Done** | Catapult, Kinexon, Polar, Zebra (pro), Garmin/Whoop (consumer) |
-| 2E.4 | Technology crossover analysis (ag collar → sport) | 05                              | **Done** | ~50% backend transfers; UWB + HR sensor new               |
-| 2E.5 | Indoor tracking feasibility (hockey arenas)       | 05                              | **Done** | UWB required, $100–200K R&D; defers hockey segment        |
-| 2E.6 | Equestrian market in QC                           | 05                              | **Done** | ~50–70K horses; niche TAM ~$2–5M                          |
-| 2E.7 | Working dog niche research                        | 05                              | **Done** | Sled dogs, SAR, K-9; very niche ~$0.5–1M TAM             |
-| 2E.8 | TAM / SOM estimates (per sub-segment)             | 05                              | **Done** | Total sport TAM ~$1.6M; SOM ~$86K Y3; score 2.60/5.00    |
+| 2E.4 | Technology crossover analysis (ag collar → sport) | 05                              | **Done** | ~50% backend transfers; UWB + HR sensor new                    |
+| 2E.5 | Indoor tracking feasibility (hockey arenas)       | 05                              | **Done** | UWB required, $100–200K R&D; defers hockey segment             |
+| 2E.6 | Equestrian market in QC                           | 05                              | **Done** | ~50–70K horses; niche TAM ~$2–5M                               |
+| 2E.7 | Working dog niche research                        | 05                              | **Done** | Sled dogs, SAR, K-9; very niche ~$0.5–1M TAM                   |
+| 2E.8 | TAM / SOM estimates (per sub-segment)             | 05                              | **Done** | Total sport TAM ~$1.6M; SOM ~$86K Y3; score 2.60/5.00          |
 
 ### 2F. Competitive Landscape
 
-| #    | Task                       | Document                    | Status   | Notes                                                    |
-| ---- | -------------------------- | --------------------------- | -------- | -------------------------------------------------------- |
-| 2F.1 | Complete competitor matrix | 06-competitive-landscape.md | **Done** | 13 companies across all 4 segments                       |
-| 2F.2 | White-space analysis       | 06                          | **Done** | 7 major gaps identified; zero virtual fencing in Canada  |
-| 2F.3 | IP / patent landscape scan | 06                          | **Done** | Halter/Nofence/Vence patents flagged; FTO search needed  |
+| #    | Task                       | Document                    | Status   | Notes                                                   |
+| ---- | -------------------------- | --------------------------- | -------- | ------------------------------------------------------- |
+| 2F.1 | Complete competitor matrix | 06-competitive-landscape.md | **Done** | 13 companies across all 4 segments                      |
+| 2F.2 | White-space analysis       | 06                          | **Done** | 7 major gaps identified; zero virtual fencing in Canada |
+| 2F.3 | IP / patent landscape scan | 06                          | **Done** | Halter/Nofence/Vence patents flagged; FTO search needed |
 
 ### 2G. Market Study Summary
 
-| #    | Task                           | Document                   | Status   | Notes                                                    |
-| ---- | ------------------------------ | -------------------------- | -------- | -------------------------------------------------------- |
-| 2G.1 | Segment scoring & ranking      | 07-market-study-summary.md | **Done** | Cattle 4.55, Livestock 3.55, Pets 3.05, Sport 2.70      |
-| 2G.2 | Primary segment recommendation | 07                         | **Done** | Cattle & dairy = primary; zero competitors in Canada     |
-| 2G.3 | Derivative roadmap             | 07                         | **Done** | Phase 1→Cattle, 2→Sheep, 3→Pets, 4→Sport with tech map  |
+| #    | Task                           | Document                   | Status   | Notes                                                        |
+| ---- | ------------------------------ | -------------------------- | -------- | ------------------------------------------------------------ |
+| 2G.1 | Segment scoring & ranking      | 07-market-study-summary.md | **Done** | Cattle 4.55, Livestock 3.55, Pets 3.05, Sport 2.70           |
+| 2G.2 | Primary segment recommendation | 07                         | **Done** | Cattle & dairy = primary; zero competitors in Canada         |
+| 2G.3 | Derivative roadmap             | 07                         | **Done** | Phase 1→Cattle, 2→Sheep, 3→Pets, 4→Sport with tech map       |
 | 2G.4 | Risk assessment                | 07                         | **Done** | 8 risks with mitigations; go/no-go framework with 7 criteria |
 
 ---
