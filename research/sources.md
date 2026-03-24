@@ -21,11 +21,11 @@
 
 ## Industry Reports & Market Data
 
-| Source                                                 | URL | Used In   | Status      |
-| ------------------------------------------------------ | --- | --------- | ----------- |
-| Canadian Animal Health Institute                       |     | 04 (pets) | To research |
-| AMVQ — Association des médecins vétérinaires du Québec |     | 04 (pets) | To research |
-| CAHI Pet Population Survey                             |     | 04 (pets) | To research |
+| Source                                                 | URL                                                                              | Used In   | Status       |
+| ------------------------------------------------------ | -------------------------------------------------------------------------------- | --------- | ------------ |
+| CAHI Pet Population Survey 2022                        | https://cahi-icsa.ca/press-releases/2022-latest-canadian-pet-population-figures-released | 04 (pets) | **Verified** |
+| Canadian Animal Health Institute (CAHI)                | https://cahi-icsa.ca                                                             | 04 (pets) | **Verified** |
+| AMVQ — Association des médecins vétérinaires du Québec |                                                                                  | 04 (pets) | To verify    |
 
 ## Competitor Sources
 
@@ -33,13 +33,16 @@
 | --------------------------- | ------------------------------ | ------------------ | ------------ |
 | Halter                      | https://halter.co.nz           | 02, 06, case study | **Verified** |
 | Nofence                     | https://nofence.com            | 02, 03, 06         | **Verified** |
-| Vence (Merck Animal Health) |                                | 02, 06             | To verify    |
-| Fi Smart Collar             | https://tryfi.com              | 04, 06             | To research  |
-| Tractive                    | https://tractive.com           | 04, 06             | To research  |
-| Whistle (Mars Petcare)      | https://www.whistle.com        | 04, 06             | To research  |
-| Catapult / STATSports       | https://www.catapultsports.com | 05, 06             | To research  |
-| Kinexon                     | https://kinexon.com            | 05, 06             | To research  |
-| Polar Team Pro              | https://www.polar.com          | 05, 06             | To research  |
+| Vence (Merck Animal Health) | https://www.merck-animal-health.com | 02, 06        | To verify    |
+| Fi Smart Collar             | https://fitracking.com         | 04, 06             | **Verified** (rebranded from tryfi.com) |
+| Tractive                    | https://tractive.com           | 04, 06             | **Verified** |
+| Whistle (Mars Petcare)      | https://www.whistle.com        | 04, 06             | To verify    |
+| Catapult / STATSports       | https://www.catapultsports.com | 05, 06             | **Verified** |
+| Kinexon                     | https://kinexon.com            | 05, 06             | **Verified** |
+| Polar Team Pro              | https://www.polar.com          | 05, 06             | **Verified** |
+| Zebra Technologies          | https://www.zebra.com          | 05, 06             | To verify    |
+| Garmin (sport wearables)    | https://www.garmin.com         | 05, 06             | **Verified** |
+| Whoop                       | https://www.whoop.com          | 05, 06             | **Verified** |
 
 ## Technical References
 
@@ -51,11 +54,19 @@
 
 ## Sport & Performance Sources
 
-| Source                                            | URL | Used In    | Status      |
-| ------------------------------------------------- | --- | ---------- | ----------- |
-| Soccer Quebec (registration stats)                |     | 05 (sport) | To research |
-| Hockey Quebec (registration stats)                |     | 05 (sport) | To research |
-| Ministère de l'Éducation — Sport participation QC |     | 05 (sport) | To research |
+| Source                                            | URL                             | Used In    | Status       |
+| ------------------------------------------------- | ------------------------------- | ---------- | ------------ |
+| Soccer Quebec                                     | https://www.soccerquebec.org    | 05 (sport) | **Verified** |
+| Hockey Quebec                                     | https://www.hockeyquebec.com    | 05 (sport) | **Verified** |
+| RSEQ (Réseau du sport étudiant du Québec)         | https://rseq.ca                 | 05 (sport) | **Verified** |
+| Cheval Québec                                     | https://www.cheval.quebec       | 05 (sport) | To verify    |
+| Ministère de l'Éducation — Sport participation QC |                                 | 05 (sport) | To verify    |
+
+## IP & Patent Sources
+
+| Source                                    | URL                                                                                  | Used In | Status    |
+| ----------------------------------------- | ------------------------------------------------------------------------------------ | ------- | --------- |
+| CIPO (Canadian Intellectual Property Office) | https://www.ic.gc.ca/eic/site/cipointernet-internetopic.nsf/eng/home              | 06      | To verify |
 
 ## Academic / Research Papers
 
