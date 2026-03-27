@@ -46,3 +46,7 @@ htmlcov/
 *.pem
 *.key
 *.p12
+
+# OpenClaw (local agent config — contains phone number & auth tokens)
+.openclaw/
+openclaw-auth*.json

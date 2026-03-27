@@ -27,6 +27,9 @@ cowgorithm/
 ├── README.md                              ← You are here
 ├── .gitignore
 ├── .env.example                           ← Environment variable template
+├── AGENTS.md                              ← OpenClaw agent instructions
+├── SOUL.md                                ← OpenClaw agent personality
+├── openclaw.config.jsonc                  ← OpenClaw config template
 ├── .github/
 │   ├── copilot-instructions.md            ← Copilot project context
 │   ├── CONTRIBUTING.md                    ← Contribution guidelines
@@ -40,7 +43,12 @@ cowgorithm/
 │       ├── quebec-agriculture-data.md     ← QC agriculture data skill
 │       ├── competitor-analysis.md         ← Competitor research skill
 │       └── tam-calculation.md             ← TAM/SAM/SOM methodology
+├── skills/                                ← OpenClaw skills
+│   ├── research/SKILL.md                  ← Research methodology
+│   ├── report-gen/SKILL.md                ← Output format templates
+│   └── cron-tasks/SKILL.md                ← Scheduled task definitions
 ├── docs/
+│   ├── openclaw-setup.md                  ← OpenClaw setup guide
 │   ├── market-study/                      ← Quebec market research
 │   │   ├── 01-quebec-agriculture-overview
 │   │   ├── 02-segment-cattle-dairy
@@ -63,6 +71,7 @@ cowgorithm/
 ├── research/                              ← Bibliography & progress tracking
 │   ├── sources.md
 │   ├── research-plan.md
+│   ├── explorations/                      ← Adjacent market discoveries (OpenClaw)
 │   └── case-studies/
 │       └── halter.md                      ← Halter (NZ) deep-dive
 ├── src/                                   ← (future) product code
@@ -146,6 +155,32 @@ cowgorithm/
 - **Bootstrapping first** — financial projections model lean scenarios; grants (Innov'Action, IRAP) as accelerators
 - **Quebec-first launch** — French-first for agriculture segments, bilingual product from day one
 - **Dual-purpose repo** — planning docs now, product code later in `src/` and `hardware/`
+
+---
+
+## Autonomous Research Agent (OpenClaw)
+
+This repo is configured for [OpenClaw](https://github.com/openclaw/openclaw) — an open-source AI personal assistant that runs as a background daemon, executes scheduled research tasks, and communicates via WhatsApp.
+
+**What it does:**
+- Picks up the next incomplete task from `research/research-plan.md` on a schedule (Tue/Thu)
+- Scans for competitor news, funding rounds, and regulatory changes weekly
+- Explores adjacent market opportunities and scores them (Wed)
+- Sends WhatsApp briefs with findings and asks one question at a time for decisions
+- Writes all output to this repo (`research/explorations/`, `docs/reports/`, `docs/summaries/`)
+
+**Setup:** See [docs/openclaw-setup.md](docs/openclaw-setup.md) for full installation and configuration instructions.
+
+**Key files:**
+| File | Purpose |
+|------|---------|
+| [AGENTS.md](AGENTS.md) | Project context & rules the agent follows |
+| [SOUL.md](SOUL.md) | Agent personality — direct, data-first, bilingual-aware |
+| [openclaw.config.jsonc](openclaw.config.jsonc) | Config template (copy to `~/.openclaw/`) |
+| [skills/research/](skills/research/SKILL.md) | Research methodology & scoring framework |
+| [skills/report-gen/](skills/report-gen/SKILL.md) | Output format templates |
+
+> **Security:** The agent runs in a Docker sandbox with access only to this project directory. No host filesystem access. WhatsApp restricted to a single phone number.
 
 ---
 

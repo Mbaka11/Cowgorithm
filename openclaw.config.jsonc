@@ -1,0 +1,83 @@
+// OpenClaw Configuration Template for Cowgorithm
+// Copy this to ~/.openclaw/openclaw.json and fill in your values.
+//
+// Auth: openclaw models auth login-github-copilot
+// Workspace is LOCKED to the Cowgorithm project directory only.
+// Sandbox mode is ALWAYS ON — agent cannot access the rest of your system.
+//
+// ╔══════════════════════════════════════════════════════════╗
+// ║  PLACEHOLDERS — search for "CHANGE_ME" (3 total)        ║
+// ╚══════════════════════════════════════════════════════════╝
+// 1. agent.workspace         → your local project path
+// 2. docker.mounts           → same path (must match #1)
+// 3. whatsapp.allowFrom      → your phone number (+1XXXXXXXXXX)
+
+{
+  // --- Model ---
+  "agent": {
+    // claude-sonnet-4.6 = primary model (premium requests).
+    // Falls back to gpt-4o (free/unlimited) when limit is hit.
+    "model": "github-copilot/claude-sonnet-4.6",
+    "fallbackModel": "github-copilot/gpt-4o",
+
+    // CHANGE_ME #1 — your local project path
+    "workspace": "D:\\Projects\\cowgorithm",
+  },
+
+  // --- Usage limits ---
+  // Soft guardrails to avoid burning through Copilot premium requests.
+  // OpenClaw will pause and notify you via WhatsApp when a limit is hit,
+  // then fall back to the free model for the rest of the window.
+  "limits": {
+    // Max premium-model requests per 24h rolling window
+    "maxPremiumRequestsPerDay": 30,
+    // Max premium-model requests per single task/session
+    "maxPremiumRequestsPerSession": 15,
+    // When hit: "pause" (stop and notify) or "fallback" (switch to free model)
+    "onLimitReached": "fallback",
+  },
+
+  // --- Agent defaults ---
+  "agents": {
+    "defaults": {
+      // SANDBOX: always run in Docker — agent can only see /workspace
+      "sandbox": {
+        "mode": "always",
+        "docker": {
+          "image": "ghcr.io/openclaw/openclaw:latest",
+          "mounts": [
+            // CHANGE_ME #2 — same path as agent.workspace
+            "D:\\Projects\\cowgorithm:/workspace:rw",
+          ],
+          "env": {
+            "LANG": "C.UTF-8",
+          },
+        },
+        "tools": {
+          "allow": ["bash", "read", "write", "edit", "browser"],
+          "deny": ["canvas", "nodes", "cron_delete", "gateway"],
+        },
+      },
+    },
+  },
+
+  // --- WhatsApp Channel ---
+  "channels": {
+    "whatsapp": {
+      // CHANGE_ME #3 — your WhatsApp number in international format
+      "allowFrom": ["+1XXXXXXXXXX"],
+      "dmPolicy": "pairing",
+    },
+  },
+
+  // --- Browser (for web research) ---
+  "browser": {
+    "enabled": true,
+  },
+
+  // --- No cron jobs ---
+  // Tasks are driven on-demand: either via WhatsApp commands or by
+  // running `openclaw run` with a prompt. The agent reads AGENTS.md
+  // for project context and research/research-plan.md for the task
+  // backlog. See docs/openclaw-setup.md for usage examples.
+}
